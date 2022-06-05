@@ -1,0 +1,246 @@
+{
+"global":{
+	"logo":["assets/img/correctSpaceC.svg","assets/img/logo.gif","assets/img/correctSpace.svg"],
+	"companyName":"Correct Space LLP",
+	"shortAbout":"Correct Space is a cloud-managed service provider company located in Zirakpur,Punjab, India. We help enterprises and startups align their Development, Operations and to achieve higher efficiency, faster time to market, and better quality of software.",
+	"contact":[{
+		"name":"Phone",
+		"value":"+91 9034580980",
+		"class":"icon",
+		"icon":"fas fa-phone"
+	},{
+		"name":"Email",
+		"value":"info@correctspace.com",
+		"class":"icon",
+		"icon":"fas fa-envelope-open"
+	},{
+		"name":"OFFICE HOURS",
+		"value":"10:00 AM – 08:00 PM",
+		"class":"icon",
+		"icon":"fas fa-clock"
+	},{
+		"name":"Office Location",
+		"value":"SCO 4, 4th floor, Hermitage Plaza, Dhakoli, Punjab, India 160104",
+		"class":"icon",
+		"icon":"fa-map-marked-alt"
+	}],
+	"offices":[{
+		"name":"Correct Space LLP",
+		"address":"Punjab, India",
+		"phone":"+91-9034580980",
+		"website":"",
+		"country":"INDIA",
+		"class":"col-md-6 col-sm-6 col-office-add",
+		"icon":""
+	},{
+		"name":"Bluetrain Computer Consulting LLC",
+		"address":"Rockland, NY, USA",
+		"phone":"+1-845-418-3343",
+		"website":"www.bluetraincomputers.com",
+		"country":"USA",
+		"class":"col-md-6 col-sm-6 col-office-add",
+		"icon":""
+	}],
+	"socialLink":[{
+		"name":"Facebook",
+		"link":"https://www.facebook.com/CorrectSpaceLLP",
+		"target":"_blank",
+		"icon":"fab fa-facebook-f",
+		"class":"facebook"
+	},{
+		"name":"Twitter",
+		"link":"https://twitter.com/CorrectSpaceLLP",
+		"target":"_blank",
+		"icon":"fab fa-twitter",
+		"class":"twitter"
+	},{
+		"name":"LinkedIn",
+		"link":"https://www.linkedin.com/company/CorrectSpaceLLP",
+		"target":"_blank",
+		"icon":"fab fa-linkedin-in",
+		"class":"pinterest"
+	}],
+	"menus":[{
+			"name":"Home",
+			"link": "index.html",
+			"icon":"",
+			"class":""
+	},{
+			"name":"About Us",
+			"link": "about-us.html",
+			"icon":"",
+			"class":""
+	},{
+			"name":"Services",
+			"link": "javascript:void(0)",
+			"icon":"",
+			"class":"dropdown",
+			"subMenus":[{
+				"name":"DevOps as a Service",
+				"link": "devops-as-a-service.html",
+				"icon":"",
+				"class":""
+			},{
+				"name":"Cloud Managed Services",
+				"link": "cloud-managed-services.html",
+				"icon":"",
+				"class":""
+			},{
+				"name":"Cloud Computing Consulting Services",
+				"link": "cloud-computing-services.html",
+				"icon":"",
+				"class":"dropdown",
+				"subMenus":[{
+						"name":"Public Cloud Consulting Services",
+						"link": "public-cloud-services.html",
+						"icon":"",
+						"class":""
+					},{
+						"name":"Private Cloud Consulting Services",
+						"link": "private-cloud-services.html",
+						"icon":"",
+						"class":""
+					},{
+						"name":"Hybrid Cloud Consulting Services",
+						"link": "hybrid-cloud-services.html",
+						"icon":"",
+						"class":"dropdown"
+					},{
+						"name":"Disaster Recovery Consulting Services",
+						"link": "disaster-recovery-services.html",
+						"icon":"",
+						"class":"dropdown"
+					}]
+			}]
+	},{
+			"name":"Pricing",
+			"link": "pricing.html",
+			"icon":"",
+			"class":""
+	},{
+			"name":"Help &#038; Faqs",
+			"link": "help-faqs.html",
+			"icon":"",
+			"class":""
+	},{
+			"name":"Contact Us",
+			"link": "contact-us.html",
+			"icon":"",
+			"class":""
+	}],
+	"projectsCount":[{
+		"name":"Happy Clients Your Passion is our Satisfaction.",
+		"value":"40",
+		"icon":"",
+		"class":""
+	},{
+		"name":"Projects Incredible Service, Incredible right.",
+		"value":"200",
+		"icon":"",
+		"class":""
+	},{
+		"name":"Years of experience Give more than Expected.",
+		"value":"10",
+		"icon":"",
+		"class":""
+	},{
+		"name":"Awards We have Power that Brings Smile on your Fact.",
+		"value":"10",
+		"icon":"",
+		"class":""
+	}],
+	"fq":{
+		"image":"wp-content/uploads/2021/07/4.png",
+		"class":"",
+		"icon":"",
+		"questions":[{
+			"question":"What do you offer with your Cloud Management service?",
+			"answer":"We provide a proactive and preventative approach for cloud monitoring, support, and infrastructure level optimization. Whether you are looking to fix issues, develop a strategy, utilize cloud-managed services, or any kind of modernize and secure the applications and infrastructure, Correct Space is the end-to-end cloud services provider that can help.",
+			"icon":"",
+			"class":"collapse show",
+			"qclass":"mb-0"
+		},{
+			"question":"How to Protect Yourself from Cloud Security?",
+			"answer":"Cloud security is a discipline of cyber security dedicated to securing cloud computing systems. This includes keeping data private and safe accessible across online-based infrastructure, applications, and platforms. We used best practices to secure the cloud platform like Web Application Firewall [WAF], NIDS, NACL, DDoS prevention, SQL injection, Rate base limiting, MFA, Private N/W infrastructure deployment etc.",
+			"icon":"",
+			"class":"collapse",
+			"qclass":"mb-0 collapsed"
+		},{
+			"question":"What is cloud computing?",
+			"answer":"Cloud computing is the on-demand delivery of computing power, data storage, and other services over a network so that you don't need to buy or maintain expensive up-front resources. Instead, your organization has access to a shared pool of resources that can be utilized when needed.",
+			"icon":"",
+			"class":"collapse",
+			"qclass":"mb-0 collapsed"
+		}]
+	},
+	"clientSay":[{
+		"name":"Andy",
+		"image":"assets/img/testimonials/andrew.png",
+		"company":"CEO, Bluetrain",
+		"revew":"Correct Space is a genuinely good team and are always trying to deliver a good result. A dedicated and determined bunch of individuals who meld together well as a team.",
+		"raiting":"5"
+
+	},{
+		"name":"Ira",
+		"image":"wp-content/uploads/2021/07/2-1.jpg",
+		"company":"Manager, NCFC",
+		"revew":"Correct Space is very responsive, professional and a pleasure to work with. I can highly recommend this company to others. I hope to use them again in the future.",
+		"raiting":"5"
+
+	}],
+	"certification":[{
+		"name":"",
+		"image":"wp-content/uploads/2022/03/aws-300x169-1.png",
+		"icon":"",
+		"class":""
+	},{
+		"name":"",
+		"image":"wp-content/uploads/2022/03/google-1024x538-1.png",
+		"icon":"",
+		"class":""
+	},{
+		"name":"",
+		"image":"wp-content/uploads/2022/03/kubernates-logo.svg",
+		"icon":"",
+		"class":""
+	},{
+		"name":"",
+		"image":"wp-content/uploads/2022/03/redhat.png",
+		"icon":"",
+		"class":""
+	},{
+		"name":"",
+		"image":"wp-content/uploads/2022/03/elk.png",
+		"icon":"",
+		"class":""
+	},{
+		"name":"",
+		"image":"wp-content/uploads/2022/03/digital-1024x1024-1.png",
+		"icon":"",
+		"class":""
+	}]
+},
+
+"pages":[{
+	"pageIndex":"index.html",
+	"title":"Correct Space :: 24/7 IT infrastructure and software support services",
+	"description":"Correct Space is a trusted software development company with 10+ years of experience. Specializing in Cloud managed services, Kubernetes, DevOps and More!!. 24/7 IT infrastructure and software support services",
+	"headline":"",
+	"subtitle":""
+	}],
+"blocks":[{
+	"title":"We are a Strong DevOps Company",
+	"description":"We are offering services under the Hybrid cloud, CI/CD, Docker, Terraform, Kubernetes, Infrastructure security, Monitoring, and Disaster management solutions. We also help to increase an organization’s speed to deliver the various platform applications and services. It permits organizations to serve their customers better and compete in the market.",
+	"icon":"",
+	"class":"",
+	"image":"assets/img/vectors/devops.png",
+	"button":{
+		"name":"Get Started",
+		"link":"contact-us.html",
+		"icon":"",
+		"class":""
+	}
+}]
+}
+
+
