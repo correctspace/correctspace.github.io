@@ -1,6 +1,8 @@
 function NotFound() {
   return (
-    <div>NotFound</div>
+    <> 
+    <section>Not Found</section>
+    </>
   )
 }
 
