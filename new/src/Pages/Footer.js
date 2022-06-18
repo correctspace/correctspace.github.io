@@ -1,4 +1,3 @@
-import React from 'react'
 import { Outlet, Link } from "react-router-dom";
 
 function Footer() {
@@ -62,14 +61,14 @@ function Footer() {
 		</footer>
 		
 		<section id="copy-right">
-			<div className="copy-right-sec"> <i className="far fa-copyright"> </i>   
-			Copyright 2022 <Link to="/">Correct Space LLP</Link> 
-			Build No. 1.0.6.1
+			<div className="copy-right-sec"><i className="far fa-copyright"> </i>   
+			Copyright 2022 <Link to="/">Correct Space LLP</Link>
+
 
 			</div>
 
 		</section>
-		
+		<Outlet />
     </>
   )
 }
