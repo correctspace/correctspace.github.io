@@ -46,7 +46,7 @@
   .menu > ul > li a {
     color: #FBFBFB;
     display: block;
-    padding: 15px;
+    padding: 10px;
     position: relative;
     text-decoration: none;
     z-index: 1;
@@ -152,7 +152,7 @@
       display: inline-block;
       margin-left: -5px;
       vertical-align: top;
-      width: 120px;
+      min-width: 100px;
     }
     .menu > ul > li:hover:after,
     .menu > ul > li:focus:after,
@@ -183,10 +183,10 @@
   }
   @media (min-width: 775px) {
     .menu > ul > li {
-      width: 150px;
+      /* width: 150px; */
     }
     .menu > ul > li a:not(:last-child):before {
-      right: 25px;
+      /* right: 25px; */
     }
   }
   
