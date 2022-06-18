@@ -1,4 +1,5 @@
 import React from 'react'
+import { Outlet, Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -9,9 +10,9 @@ function Footer() {
 			<div className="container">
 				<div className="row">
 					<div className="col-md-3">
-						<a href="index.html"><img src="" alt="" className="img-fluid logo-footer"/></a>
+					<Link to="/"><img src="" alt="" className="img-fluid logo-footer"/></Link>
                       <div className="footer-about">
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  </p>
+                          <p>Correct Space LLP about,  </p>
                       </div>
 
 					</div>
@@ -20,10 +21,10 @@ function Footer() {
 							<h2>Useful Links</h2>
 							<img src="" alt="" className="img-fluid"/>
 							<div className="use-links">
-								<li><a href="index.html"><i className="fas fa-angle-double-right"></i> Home</a></li>
-								<li><a href="about.html"><i className="fas fa-angle-double-right"></i> About Us</a></li>
-								<li><a href="gallery.html"><i className="fas fa-angle-double-right"></i> Gallery</a></li>
-								<li><a href="contact.html"><i className="fas fa-angle-double-right"></i> Contact</a></li>
+								<li><Link to="/"><i className="fas fa-angle-double-right"></i> Home</Link></li>
+								<li><Link to="/"><i className="fas fa-angle-double-right"></i> About Us</Link></li>
+								<li><Link to="/"><i className="fas fa-angle-double-right"></i> Gallery</Link></li>
+								<li><Link to="/"><i className="fas fa-angle-double-right"></i> Contact</Link></li>
 							</div>
 						</div>
 
@@ -33,9 +34,9 @@ function Footer() {
 							<h2>Follow Us</h2>
 							<img src="" alt=""/>
 							<div className="social-icons">
-								<li><a href=""><i className="fab fa-facebook"></i> Facebook</a></li>
-								<li><a href=""><i className="fab fa-instagram"></i> Instagram</a></li>
-								<li><a href=""><i className="fab fa-linkedin-in"></i> Linkedin</a></li>
+								<li><Link to="/"><i className="fab fa-facebook"></i> Facebook</Link></li>
+								<li><Link to="/"><i className="fab fa-instagram"></i> Instagram</Link></li>
+								<li><Link to="/"><i className="fab fa-linkedin-in"></i> Linkedin</Link></li>
 							</div>
 						</div>
                     
@@ -49,8 +50,8 @@ function Footer() {
 								<li className="address1"><i className="fa-solid fa-location-dot"></i> Kolathur ramankulam-
 									Malappuram Dt 
 								   Kerala 679338</li>
-								   <li><a href=""><i className="fas fa-phone-alt"></i> +91 90904500112</a></li>
-								   <li><a href=""><i className="far fa-envelope"></i> mail@1234567.com</a></li>
+								   <li><Link to="/"><i className="fas fa-phone-alt"></i> +91 90904500112</Link></li>
+								   <li><Link to="/"><i className="far fa-envelope"></i> mail@1234567.com</Link></li>
 							</div>
 						</div>
 					</div>
@@ -61,8 +62,8 @@ function Footer() {
 		</footer>
 		
 		<section id="copy-right">
-			<div className="copy-right-sec"><i className="far fa-copyright"> </i>  
-				  2022 <a href="#">Correct Space LLP</a> 
+			<div className="copy-right-sec"> <i className="far fa-copyright"> </i>   
+			Copyright 2022 <Link to="/">Correct Space LLP</Link> 
 
 
 			</div>

@@ -24,9 +24,9 @@ function Header() {
     <>
       <nav id="navArea" className={'menu ' + sticky} >
         <div className="logo">
-          <a href="#">
+        <Link to="/">
             <img src="https://www.correctspace.com/assets/img/correctSpaceC.svg" alt="your company logo" />
-          </a>
+          </Link>
         </div>
         <ul>
           <li className="menu-item"><Link to="/">Home</Link></li>
