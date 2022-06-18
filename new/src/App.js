@@ -12,7 +12,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Header />}>
           <Route index element={<Data />} />
-
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Route>
