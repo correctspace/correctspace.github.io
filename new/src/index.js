@@ -25,11 +25,15 @@ import About from './Pages/About';
 import NotFound from './Pages/NotFound';
 import Footer from './Pages/Footer';
 
+import ScrollToTop from "./Pages/ScrollToTop";
+
 export default function App() {
   return (
     <>
     <BrowserRouter>
+    <ScrollToTop />
       <Routes>
+        
         <Route path="/" element={<Header />}>
           <Route index element={<Data />} />
           <Route path="about" element={<About />} />
