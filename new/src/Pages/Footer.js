@@ -64,7 +64,7 @@ function Footer() {
 			<div className="copy-right-sec"><i className="far fa-copyright"> </i>   
 			Copyright 2022 <Link to="/">Correct Space LLP</Link>
 
-
+Build No. 1.0.6.2
 			</div>
 
 		</section>
